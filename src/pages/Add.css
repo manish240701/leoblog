@@ -1,0 +1,22 @@
+.add-outer-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-field,.add-btn{
+    margin: 15px;
+}
+
+.add-btn{
+    background-color: rgb(238, 62, 31);
+    color: white;
+    font-weight: 600;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .add-outer-container{
+        width: 80%;
+    }
+    
+}

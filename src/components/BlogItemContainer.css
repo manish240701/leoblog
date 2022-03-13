@@ -1,0 +1,38 @@
+.blog-item-outer-container{
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: rgb(237, 237, 245)
+}
+
+.blog-title{
+    margin-bottom: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.blog-title:hover{
+    color: rgb(63, 63, 63);
+}
+
+.blog-date{
+    margin-bottom: 3px;
+    color: rgba(120, 115, 115, 0.795);
+}
+
+.blog-author{
+    color: rgb(214, 80, 57);
+}
+
+a{
+    color: rgba(0, 0, 0, 0.836);
+}
+
+@media only screen and (max-width: 900px) {
+    .blog-item-outer-container{
+        width: 80%;
+    }
+}

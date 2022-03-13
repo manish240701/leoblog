@@ -1,0 +1,18 @@
+.view-outer-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding:0 80px;
+}
+
+.blog-body{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    .view-outer-container{
+        width: 100%;
+        padding: 0 40px;
+    }
+}
+
